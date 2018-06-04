@@ -196,7 +196,7 @@ print(wynik2)
 
 # bitList = []
 # #bitList = ['0','0','0','0','0','0','0','0','0','0','0','1']
-# #bitList = ['1','0','1','1','0']  # PRZY MALYCH SIE W CHUJ PIERDOLI
+# #bitList = ['1','0','1','1','0']
 # bitList = ['1','0','1','1']
 # fileOperator = FileOperator()
 # #bitList = fileOperator.readFile("test.txt")

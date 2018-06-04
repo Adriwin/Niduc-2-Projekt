@@ -48,7 +48,7 @@ class SelectiveRepeatGUI:
         self.root.protocol("WM_DELETE_WINDOW", self._delete_window)
         canvas = Canvas(self.root, width=300, height=300, bg="#e5b390")
         canvas.pack()
-        self.root.title("Stop and Wait")
+        self.root.title("Selective Repeat")
 
         strLab = "Count of package to send: " + str(len(self.sourcePackages))
         countPackage = Label(canvas, text=strLab)

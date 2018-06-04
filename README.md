@@ -1,11 +1,18 @@
-# Temat 5 Zadania HARQ
-Zbadanie dwÛch modeli kana≥Ûw dyskretnych: Binary Symetric Channel (b≥Ídy pojedyncze), model Gilberta (b≥Ídy grupowe), opcjonalnie Binary Erasure Channel. 
+Zadania HARQ
 
-Implementacja potrÛjnej redundancji. 
+Implemetnacja protoko≈Çu  STOP-AND-WAIT + SELECTIVE REPEAT.
+Implementacja systemu hybrydowego (HARQ) Hybrid Automatic Repeat Request 
+typ I. 
 
-Zbadanie kodu Hamminga (7,4) jako kodu korekcyjnego i detekcyjnego.
+Poszczeg√≥lne kroki implementacyjne (na kolejne spotkania):
 
-UwzglÍdnienie w protokole zmiany w jakoúci transmisji (zwiÍkszenie siÍ prawdopodobieÒstwa b≥ÍdÛw w modelu).
+a) implementacja modeli  BSC + protok√≥≈Ç SAW + bit parzysto≈õci + TMR 
+(najlepiej 5 bit√≥w powt√≥rzonych)
 
-Implemetnacja protoko≥u  SELECTIVE REPEAT.
-Implementacja systemu hybrydowego (HARQ) Hybrid Automatic Repeat Request typ I.
+b) implementacja modelu Gilberta, protok√≥≈Ç SR
+
+c) implementacja kodu Hamminga (7,4), sumy CRC32
+
+d) optymalizacja protoko≈Ç√≥w, wykresy w Matplotlib. Dzia≈Çanie systemu 
+(przej≈õcia pakiet√≥w, ACK√≥w itp) musi byƒá zostaƒá zwiazualizowane w spos√≥b 
+czytelny (mo≈ºna do tego wykorzystaƒá modu≈Ç Graphics, PIL, PyQt itp.)
